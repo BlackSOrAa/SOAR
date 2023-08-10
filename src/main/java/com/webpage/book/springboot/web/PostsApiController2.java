@@ -29,7 +29,7 @@ public class PostsApiController2 {
     }
 
     @DeleteMapping("/api/v1/posts2/{id}")
-    public Long delate(@PathVariable Long id){
+    public Long delete(@PathVariable Long id){
         postsService2.delete(id);
         return id;
     }
