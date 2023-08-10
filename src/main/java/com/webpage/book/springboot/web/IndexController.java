@@ -16,7 +16,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String firstPage() {
-        return "board.html";
+        return "index.html";
     }
 
     @GetMapping("/index")
